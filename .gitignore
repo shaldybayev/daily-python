@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Logs and data
+*.log
+*.csv
+*.dat
+*.sqlite3
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# --- macOS system files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- IDEs and editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Tests and coverage ---
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+
+# --- Other ---
+dist/
+build/
