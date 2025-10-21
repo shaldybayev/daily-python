@@ -1,6 +1,6 @@
-name = input("Please enter your first name: ")
-lname = input("Please enter your second name: ")
-print(f"Hello my dear {name} {lname}!")
+def main():
+    message = "Hello, name!"
+    print(message)
 
-
-#have a nice good day
+if __name__ == "__main__":
+    main()
