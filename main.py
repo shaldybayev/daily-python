@@ -1,5 +1,6 @@
 from datetime import datetime
 
+# Have a nice good day
 def main():
     today = datetime.now().strftime("%Y-%m-%d %H:%M%S")
     message = f"Today's Python session started at {today}!"
