@@ -1,10 +1,8 @@
-from datetime import datetime
+from datetime import date
 
-# Have a nice good day
-def main():
-    today = datetime.now().strftime("%Y-%m-%d %H:%M%S")
-    message = f"Today's Python session started at {today}!"
-    print(message)
+def motivation():
+    today = date.today()
+    print(f"Keep coding, my friend - {today} is a great day to learn Python!")
 
 if __name__ == "__main__":
-    main()
+    motivation()
